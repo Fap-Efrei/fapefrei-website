@@ -1,0 +1,340 @@
+#mainContainerJoin{
+    #containerJoin{
+        background: rgb(249, 249, 249);
+        h1{
+            color: #30DE21;
+            text-align: center;
+            font-size: 20px;
+        }
+        #formComputer{
+            display: none;
+            backdrop-filter: blur(20px);
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.75);
+            box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.05);
+            backdrop-filter: blur(20px);            
+            border-radius: 20px;
+            width: 90%;
+            margin-left: 5%;
+            .send{
+                margin-top: 20px;
+                background: rgba(48, 222, 33, 0.4);
+                border-radius: 15px;
+                color: white;
+                padding: 5px 30px 5px 30px;
+                cursor: pointer;
+                font-size: 12px;
+                display: block;
+                margin-right: 30px;
+                margin-left: auto;
+                font-weight: bold;
+            }
+            #containerCategory{
+                .inputContainer,.textareaContainer{
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 10px;
+                    input,textarea{
+                        width: 70%;
+                        resize: none;
+                        border: none;
+                        margin-left: 25%;
+                    }
+                    input{
+                        background: #FFFFFF;
+                        border-radius: 5px;
+                        border: none;
+                        border-width: 0px;
+                        margin-top: 2px;
+                        height: 25px;
+                    }
+                    input::placeholder,textarea::placeholder{
+                        color: #AAAAAA;
+                        font-size: 10px;
+                    }
+                    label{
+                        color: #777777;
+                        font-size: 12px;
+                        margin-left: 25%;
+                        span{
+                            color: #EF3061;
+                        }
+                    }
+    
+                }
+                .textareaContainer{
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        #formPhone{
+            backdrop-filter: blur(20px);
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.75);
+            box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.05);
+            backdrop-filter: blur(20px);
+            border-radius: 20px;
+            width: 90%;
+            margin-left: 3%;
+            .inputContainer,.textareaContainer{
+                display: flex;
+                flex-direction: column;
+                margin-top: 10px;
+                input,textarea{
+                    width: 50%;
+                    resize: none;
+                    border: none;
+                    margin-left: 25%;
+                }
+                input{
+                    background: #FFFFFF;
+                    border-radius: 5px;
+                    border: none;
+                    border-width: 0px;
+                    margin-top: 2px;
+                    height: 25px;
+                }
+                input::placeholder,textarea::placeholder{
+                    color: #AAAAAA;
+                    font-size: 10px;
+                }
+                label{
+                    color: #777777;
+                    font-size: 15px;
+                    margin-left: 25%;
+                    span{
+                        color: #EF3061;
+                    }
+                }
+
+            }
+            .textareaContainer{
+                margin-bottom: 20px;
+            }
+            .send{
+                margin-top: 10px;
+                background: rgba(48, 222, 33, 0.4);
+                border-radius: 15px;
+                color: white;
+                padding: 5px 30px 5px 30px;
+                cursor: pointer;
+                font-size: 12px;
+                display: block;
+                margin: auto;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 400px){
+    #mainContainerJoin{
+        #containerJoin{
+            h1{
+                font-size: 25px;
+            }
+            #formPhone{
+                .inputContainer,.textareaContainer{
+                    input{
+                        height: 30px;
+                    }
+                    input::placeholder,textarea::placeholder{
+                        color: #AAAAAA;
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 500px){
+    #mainContainerJoin{
+        #containerJoin{
+            h1{
+                font-size: 35px;
+                text-align: right;
+                margin-right: 5%;
+            }
+            #formPhone{
+                display: none;
+            }
+            #formComputer{
+                display: block;
+                #containerCategory{
+                    display: flex;
+                    #containerNameDiscordYear,#containerNamePhonePole,#containerMailMotivation{
+                        width: 80%;
+                        margin: auto;
+                        input{
+                            width: 80%;
+                        }
+                    }
+                    #containerMailMotivation{
+                        transform: translateY(24px);
+                    }
+                    #containerMailMotivation{
+                        input{
+                            width: 70%;
+                        }
+                    }
+                    .inputContainer,.textareaContainer{
+                        input::placeholder,textarea::placeholder{
+                            font-size: 9px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 700px){
+    #mainContainerJoin{
+        #containerJoin{
+            h1{
+                font-size: 40px;
+            }
+            #formComputer{
+                padding: 40px 10px 40px 0px;
+                .send{
+                    font-size: 15px;
+                    margin-right: 30px;
+                }
+                #containerCategory{
+                    #containerNameDiscordYear,#containerNamePhonePole{
+                        input{
+                            width: 85%;
+                        }
+                    }
+                    #containerMailMotivation{
+                        transform: translateY(18px);
+                    }
+                    .inputContainer,.textareaContainer{
+                        input{
+                            height: 30px;
+                        }
+                        textarea{
+                            width: 72%;
+                        }
+                        input::placeholder,textarea::placeholder{
+                            font-size: 11px;
+                        }
+                        label{
+                            font-size: 15px;
+                            margin-left: 25%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and(min-width: 900px){
+    #mainContainerJoin{
+        #containerJoin{
+            h1{
+                font-size: 50px;
+            }
+            #formComputer{
+                .send{
+                    font-size: 17px;
+                }
+                #containerCategory{
+                    #containerNameDiscordYear,#containerNamePhonePole{
+                        input{
+                            width: 80%;
+                        }
+                    }
+                    #containerMailMotivation{
+                        transform: translateY(15px);
+                    }
+                    .inputContainer,.textareaContainer{
+                        input{
+                            height: 30px;
+                        }
+                        textarea{
+                            width: 70%;
+                        }
+                        input::placeholder,textarea::placeholder{
+                            font-size: 11px;
+                        }
+                        label{
+                            font-size: 15px;
+                            margin-left: 25%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1100px){
+    #mainContainerJoin{
+        #containerJoin{
+            h1{
+                font-size: 55px;
+            }
+            #formComputer{
+                .send{
+                    font-size: 17px;
+                }
+                #containerCategory{
+                    #containerMailMotivation{
+                        transform: translateY(20px);
+                    }
+                    .inputContainer,.textareaContainer{
+                        input{
+                            height: 35px;
+                        }
+                        input::placeholder,textarea::placeholder{
+                            font-size: 12px;
+                        }
+                        textarea{
+                            height: 120px;
+                        }
+                        label{
+                            font-size: 17px;
+                            margin-left: 25%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1500px){
+    #mainContainerJoin{
+        #containerJoin{
+            h1{
+                font-size: 65px;
+                margin-right: 10%;
+            }
+            #formComputer{
+                width: 80%;
+                margin-left: 10%;
+                .send{
+                    font-size: 20px;
+                }
+                #containerCategory{
+                    #containerMailMotivation{
+                        transform: translateY(10px);
+                    }
+                    .inputContainer,.textareaContainer{
+                        input{
+                            height: 40px;
+                        }
+                        input::placeholder,textarea::placeholder{
+                            font-size: 13px;
+                        }
+                        label{
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
