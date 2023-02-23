@@ -1,6 +1,10 @@
 #mainContainerNav{
     display: block;
     #containerLinkNav{
+        a{
+            text-decoration: none;
+            color: #666666;
+        }
         .active{
             text-decoration: #30DE21 underline;
             text-decoration-thickness: 3px;
