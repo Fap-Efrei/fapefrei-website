@@ -5,7 +5,7 @@ function Actions(){
         <div id="mainContainerActions">
             <h1>Nos actions</h1>
             <h2>
-L’association FAP EFREI se décompose majoritairement en 5 grands pôles, dont chacun dispose de formations orientées vers 
+L’association FAP EFREI se décompose majoritairement en 4 grands pôles, dont chacun dispose de formations orientées vers 
 des publiques distincts :</h2>
             <div id="containerDescriptionPole">
                 <div id="descriptionPoleSenior">
@@ -13,7 +13,7 @@ des publiques distincts :</h2>
                     <p className="lato">Parce que les personnes âgées se sentent souvent exclues de l’informatique, perçue 
                     comme trop complexe, nous les accueillons au sein d’Efrei Paris. Fap Efrei initie les retraités et personnes 
                     âgées à l’outil informatique. Les formations se déroulent dans les salles informatiques d’Efrei Paris tous 
-                    les lundis et jeudis soirs de 18H20 à 19H20 avec un formateur par Senior. Avec un panel de cours variés, les 
+                    les lundis et jeudis soirs de 18h20 à 19h20 avec un formateur par Senior. Avec un panel de cours variés, les 
                     débutants comme les plus expérimentés y sont conviés.</p>
                 </div>
                 <div id="descriptionPoleVolonte">

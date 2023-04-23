@@ -5,32 +5,44 @@ import Home from "../views/Home";
 import Join from "../views/Join";
 import Team from "../views/Team";
 import Missing from "../views/Missing";
+import Old from "../views/Old";
 const MainRoutes = {
     path: "",
     children: [
         {
             path: "/",
-            element: <Home/>
+            element: <Home/>,
+            name: "Home",
         },
         {
             path: "actions",
-            element: <Actions/>
+            element: <Actions/>,
+            name: "Actions",
         },
         {
             path: "contact",
-            element: <Contact/>
+            element: <Contact/>,
+            name: "Contact",
         },
         {
             path: "association",
-            element: <Association/>
+            element: <Association/>,
+            name: "Association",
         },
         {
             path: "join",
-            element: <Join/>
+            element: <Join/>,
+            name: "Join",
         },
         {
             path: "team",
-            element: <Team/>
+            element: <Team/>,
+            name: "Team",
+        },
+        {
+            path: "old",
+            element: <Old/>,
+            name: "Old",
         },
         {
             path: "*",

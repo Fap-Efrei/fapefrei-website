@@ -1,4 +1,9 @@
-
+#mainTeam{
+    footer{
+        position: absolute;
+        transform: translateY(150px);
+    }
+}
 #mainContainerTeam{
     width: 80%;
     margin-left: 10%;
@@ -69,6 +74,11 @@
 }
 
 @media screen and (min-width: 700px){
+    #mainTeam{
+        footer{
+            transform: translateY(180px);
+        }
+    }
     #mainContainerTeam{
         h1{
             font-size: 30px;
@@ -138,6 +148,13 @@
     }
 }
 
+@media screen and (min-width: 1400px){
+    #mainTeam{
+        footer{
+            transform: translateY(200px);
+        }
+    }
+}
 @media screen and (min-width: 1500px){
     #mainContainerTeam{
         h1{
@@ -159,7 +176,13 @@
         }
     }
 }
-
+@media screen and (min-width: 1600px){
+    #mainTeam{
+        footer{
+            transform: translateY(220px);
+        }
+    }
+}
 @media screen and (min-width: 1800px){
     #mainContainerTeam{
         h1{

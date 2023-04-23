@@ -1,7 +1,12 @@
-footer{
-    position: fixed;
-    bottom: 0;
-    z-index: 200;
+// #mainAssociation footer{
+//     transform: translateY(-100px);
+// }
+#mainAssociation{
+    min-height: 83vh;
+    overflow-x: hidden;
+    footer{
+        position: absolute;
+    }
 }
 #mainContainerAssociation{
     #containerModal{
@@ -133,6 +138,9 @@ footer{
 }
 
 @media screen and (min-width:500px){
+    #mainAssociation{
+        min-height: 97vh;
+    }
     #mainContainerAssociation{
         div{
             p{

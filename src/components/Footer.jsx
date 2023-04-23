@@ -1,24 +1,26 @@
 import "../assets/css/Footer.scss";
+import { Link } from "react-router-dom";
 const Footer = () => {
     return (
         <footer>
             <div id="mainContainerLinkFooter">
                 <div id="containerLinkSitePlan">
                     <ul>
-                        <li>Accueil</li>
-                        <li>L'équipe</li>
-                        <li>Notre association</li>
-                        <li>Nous contacter</li>
-                        <li>Nos actions</li>
-                        <li>Nous rejoindre</li>
+                        <li><Link to="/">Accueil</Link></li>
+                        <li><Link to="team">L'équipe</Link></li>
+                        <li><Link to="association">Notre association</Link></li>
+                        <li><Link to="contact">Nous contacter</Link></li>
+                        <li><Link to="actions">Nos actions</Link></li>
+                        <li><Link to="join">Nous rejoindre</Link></li>
+                        <li><Link to="old">Les anciens</Link></li>
                     </ul>
                 </div>
                 <div id="containerSocialMedia">
                     <div id="containerLogoSocialMedia">
-                        <img src={require("../assets/images/logo_facebook.png")} alt="logo facebook"/>
-                        <img src={require("../assets/images/logo_instagram.png")} alt="logo instagram"/>
-                        <img src={require("../assets/images/logo_linkedin.png")} alt="logo linkedin"/>
-                        <img src={require("../assets/images/logo_twitter.png")} alt="logo twitter"/>
+                        <a href="https://www.facebook.com/fapefrei/" target="_blank" rel="noreferrer"><img src={require("../assets/images/logo_facebook.png")} alt="logo facebook"/></a>
+                        <a href="https://www.instagram.com/fapefrei/?hl=fr" target="_blank" rel="noreferrer"><img src={require("../assets/images/logo_instagram.png")} alt="logo instagram"/></a>
+                        <a href="https://www.linkedin.com/showcase/fapefrei/" target="_blank" rel="noreferrer"><img src={require("../assets/images/logo_linkedin.png")} alt="logo linkedin"/></a>
+                        <a href="https://twitter.com/fapefrei?lang=fr" target="_blank" rel="noreferrer"><img src={require("../assets/images/logo_twitter.png")} alt="logo twitter"/></a>
                     </div>
                     <p>Copyright © FAP EFREI  – Tous droits réservés.</p>
                 </div>

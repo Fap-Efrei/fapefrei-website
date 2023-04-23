@@ -1,0 +1,155 @@
+#mainOld{
+    footer{
+        position: absolute;
+        transform: translateY(170px);
+    }
+}
+
+#mainContainerOld{
+    width: 80%;
+    margin-left: 10%;
+    h1{
+        font-size: 20px;
+        color: #30DE21;
+        text-align: center;
+    }
+    h2{
+        text-align: left;
+        font-size: 12px;
+        width: 80%;
+        display: flex;
+        color: #1D1D1D;
+    }
+    #containerOld{
+        p{
+            font-weight: bold;
+            font-size: 10px;
+        }
+        ul{
+            list-style-type: none;
+            li{
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 500px){
+    #mainOld{
+        footer{
+            transform: translateY(190px);
+        }
+    }
+    #mainContainerOld{
+        h1{
+            font-size: 25px;
+        }
+        h2{
+            font-size: 15px;
+        }
+        #containerOld{
+            p{
+                font-size: 12px;
+            }
+            ul{
+                li{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 600px){
+    #mainOld{
+        footer{
+            transform: translateY(190px);
+        }
+    }
+    #mainContainerOld{
+        h1{
+            font-size: 30px;
+        }
+        h2{
+            font-size: 20px;
+        }
+        #containerOld{
+            p{
+                font-size: 15px;
+            }
+            ul{
+                li{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 700px){
+    #mainOld{
+        footer{
+            transform: translateY(220px);
+        }
+    }
+}
+
+@media screen and (min-width: 1000px){
+    #mainOld{
+        footer{
+            transform: translateY(230px);
+        }
+    }
+    #mainContainerOld{
+        h1{
+            font-size: 40px;
+        }
+        h2{
+            font-size: 30px;
+        }
+        #containerOld{
+            p{
+                font-size: 20px;
+            }
+            ul{
+                li{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1300px){
+    #mainOld{
+        footer{
+            transform: translateY(230px);
+        }
+    }
+    #mainContainerOld{
+        h1{
+            font-size: 45px;
+        }
+        h2{
+            font-size: 35px;
+        }
+        #containerOld{
+            p{
+                font-size: 25px;
+            }
+            ul{
+                li{
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1600px){
+    #mainOld{
+        footer{
+            transform: translateY(260px);
+        }
+    }
+}
