@@ -1,5 +1,5 @@
 import React from "react";
-import { Link,useLocation } from "react-router-dom" ;
+import { NavLink,useLocation } from "react-router-dom" ;
 import "../assets/css/Home.scss"
 function Home(){
     return(
@@ -15,8 +15,8 @@ function Home(){
             <img src={require("../assets/images/elipse_second_home.png")} alt="elipse second home" className="elipse"/>
             <img src={require("../assets/images/elipse_first_home.png")} alt="elipse first home" className="elipse"/>
             <div id="containerLinkAssociationJoin">
-                <Link to="association">Découvrer l'association</Link>
-                <Link to="join">Rejoins-nous !</Link>
+                <NavLink to="association">Découvrer l'association</NavLink>
+                <NavLink to="join">Rejoins-nous !</NavLink>
             </div>
             <div id="mainContainerOurActions">
                 <h2 className="lato">Nos actions</h2>

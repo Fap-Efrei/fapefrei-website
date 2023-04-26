@@ -24,13 +24,13 @@
     }
     
     #containerTitleDescription{
-        z-index: 2;
+        z-index: 1;
         display: flex;
         width: 90%;
         margin-left:5%;
         justify-content: space-between;
         #title{
-            z-index: 2;
+            z-index: 1;
             transform: translateY(5px);
             width: 65%;
             h1{ 
@@ -56,14 +56,15 @@
         }
     }
     #containerLinkAssociationJoin{
-        z-index: 2;
+        margin-top: 50px;
+        z-index: 100;
         display: flex;
         justify-content: space-between;
         width: 70%;
         margin-left: 15%;
         transform: translateY(10px);
         a{
-            z-index: 2;
+            z-index: 100;
             text-decoration: none;
             color: #30DE21;
             font-size: 10px;
@@ -72,6 +73,7 @@
             box-sizing: border-box;
             padding: 5px;
             background-color: white;
+            cursor: pointer;
         }
     }
     #mainContainerOurActions{
