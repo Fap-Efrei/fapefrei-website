@@ -89,7 +89,7 @@
             padding: 5%;
             width: 80%;
             margin-left: 5%;
-            #containerJuniorEspoir,#containerVolonteSenior{
+            #containerJuniorEspoir,#containerVolonteSenior,#containerEntraideEntraide{
                 display: flex;
                 justify-content: space-between;
                 #containerJunior,#containerEspoir,#containerVolonte,#containerSenior{
@@ -110,6 +110,28 @@
                     }
                     div:nth-child(2){
                         width: 60%;
+                        margin-left: 10px;
+                    }
+                }
+                #containerEntraide{
+                    display: flex;
+                    margin-left: 15%;
+                    img{
+                        width: 50px;
+                        height: 47.7px;
+                        transform: translateY(10px);
+                    }
+                    p:nth-child(1){
+                        font-size: 14px;
+                        font-weight: bold;
+                    }
+                    p:nth-child(2){
+                        text-align: justify;
+                        font-size: 10px;
+                        transform: translateY(-8px);
+                    }
+                    div:nth-child(2){
+                        width: 70%;
                         margin-left: 10px;
                     }
                 }
@@ -160,7 +182,7 @@
         
     }
 }
-@media screen and(min-width: 500px){
+@media screen and (min-width: 500px){
     #mainContainerHome{
         .elipse:nth-child(3){
             float: right;
@@ -215,8 +237,8 @@
                 width: 80%;
                 margin-left: 5%;
                 padding: 5%;
-                #containerJuniorEspoir,#containerVolonteSenior{
-                    #containerJunior,#containerEspoir,#containerVolonte,#containerSenior{
+                #containerJuniorEspoir,#containerVolonteSenior,#containerEntraideEntraide{
+                    #containerJunior,#containerEspoir,#containerVolonte,#containerSenior,#containerEntraide{
                         p:nth-child(1){
                             font-size: 16px;
                         }
@@ -248,7 +270,7 @@
     }
 }
 
-@media screen and(min-width: 600px){
+@media screen and (min-width: 600px){
     #mainHome footer{
         transform: translateY(200px);
     }
@@ -294,7 +316,7 @@
     }
 }
 
-@media screen and(min-width: 700px){
+@media screen and (min-width: 700px){
     #mainHome footer{
         transform: translateY(220px);
     }
@@ -335,8 +357,8 @@
                 font-size: 35px;
             }
             #containerOurActions{
-                #containerJuniorEspoir,#containerVolonteSenior{
-                    #containerJunior,#containerEspoir,#containerVolonte,#containerSenior{
+                #containerJuniorEspoir,#containerVolonteSenior,#containerEntraideEntraide{
+                    #containerJunior,#containerEspoir,#containerVolonte,#containerSenior,#containerEntraide{
                         img{
                             width: 60px;
                             height: 56.88px;
@@ -376,7 +398,7 @@
     }
 }
 
-@media screen and(min-width: 900px){
+@media screen and (min-width: 900px){
     #mainContainerHome{
         #containerTitleDescription{
             width: 90%;
@@ -409,7 +431,7 @@
     }
 }
 
-@media screen and(min-width: 1000px){
+@media screen and (min-width: 1000px){
     #mainContainerHome{
         #mainContainerOurActions{
             h2{
@@ -418,8 +440,8 @@
             #containerOurActions{
                 width: 70%;
                 margin-left: 10%;
-                #containerJuniorEspoir,#containerVolonteSenior{
-                    #containerJunior,#containerEspoir,#containerVolonte,#containerSenior{
+                #containerJuniorEspoir,#containerVolonteSenior,#containerEntraideEntraide{
+                    #containerJunior,#containerEspoir,#containerVolonte,#containerSenior,#containerEntraide{
                         img{
                             width: 70px;
                             height: 66.36px;
@@ -457,7 +479,7 @@
     }
 }
 
-@media screen and(min-width: 1100px){
+@media screen and (min-width: 1100px){
     #mainContainerHome{
         #containerTitleDescription{
             width: 85%;
@@ -492,7 +514,7 @@
     }
 }
 
-@media screen and(min-width: 1400px){
+@media screen and (min-width: 1400px){
     #mainContainerHome{
         #containerTitleDescription{
             #title{
@@ -524,7 +546,7 @@
         }
     }
 }
-@media screen and(min-width: 1500px){
+@media screen and (min-width: 1500px){
     #mainHome footer{
         transform: translateY(250px);
     }
@@ -536,8 +558,8 @@
             #containerOurActions{
                 width: 55%;
                 margin-left: 17.5%;
-                #containerJuniorEspoir,#containerVolonteSenior{
-                    #containerJunior,#containerEspoir,#containerVolonte,#containerSenior{
+                #containerJuniorEspoir,#containerVolonteSenior,#containerEntraideEntraide{
+                    #containerJunior,#containerEspoir,#containerVolonte,#containerSenior,#containerEntraide{
                         p:nth-child(1){
                             font-size: 22px;
                         }
@@ -573,7 +595,7 @@
         }
     }
 }
-@media screen and(min-width: 1600px){
+@media screen and (min-width: 1600px){
     #mainContainerHome{
         #containerTitleDescription{
             #title{
@@ -606,7 +628,7 @@
     }
 }
 
-@media screen and(min-width: 1800px){
+@media screen and (min-width: 1800px){
     #mainContainerHome{
         #containerTitleDescription{
             #title{

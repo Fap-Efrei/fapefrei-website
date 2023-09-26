@@ -5,7 +5,7 @@ function Actions(){
         <div id="mainContainerActions">
             <h1>Nos actions</h1>
             <h2>
-L’association FAP EFREI se décompose majoritairement en 4 grands pôles, dont chacun dispose de formations orientées vers 
+L’association FAP EFREI se décompose majoritairement en 5 grands pôles, dont chacun dispose de formations orientées vers 
 des publiques distincts :</h2>
             <div id="containerDescriptionPole">
                 <div id="descriptionPoleSenior">
@@ -29,10 +29,12 @@ des publiques distincts :</h2>
                     d’une boîte mail ou aider le formé sur des points particuliers qu’il souhaiterait aborder.</p>
                 </div>
                 <div id="descriptionPoleJunior">
-                    <p className="lato">Pôle espoir</p>
-                    <p className="lato">La formation Espoir consiste en l’accompagnement de personnes atteintes de légers handicaps. 
-                    Chaque séance peut comporter des exercices pour comprendre comment utiliser l’ordinateur, une recherche d’emploi, 
-                    la consultation d’une boîte mail ou aider le formé sur des points particuliers qu’il souhaiterait aborder.</p>
+                    <p className="lato">Pôle Junior</p>
+                    <p className="lato">FAP EFREI se tourne vers la jeunesse afin de prodiguer des cours en informatique aux écoles élémentaires de Villejuif. Ainsi, les élèves découvrent l’informatique dans des cours simples et ludiques pour se protéger des dangers d’internet.</p>
+                </div>
+                <div id="descriptionPoleEntraide">
+                    <p className="lato">Pôle Entraide</p>
+                    <p className="lato">Le pôle entraide a pour vocation d’aider les élèves d’Efrei Paris en difficulté en informatique. Ainsi, des cours particuliers sont organisés au cours de l’année pour permettre aux élèves de réussir leurs examens. Tu as d’ores et déjà des questions ? N’hésite pas à les poser à l’adresse suivante : entraide@fapefrei.com</p>
                 </div>
             </div>
         </div>

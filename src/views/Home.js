@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink,useLocation } from "react-router-dom" ;
 import "../assets/css/Home.scss"
+import Banner from "../components/Banner.jsx";
 function Home(){
     return(
         <div id="mainContainerHome">
@@ -18,6 +19,7 @@ function Home(){
                 <NavLink to="association">Découvrer l'association</NavLink>
                 <NavLink to="join">Rejoins-nous !</NavLink>
             </div>
+            <Banner/>
             <div id="mainContainerOurActions">
                 <h2 className="lato">Nos actions</h2>
                 <div id="containerOurActions">
@@ -58,6 +60,17 @@ function Home(){
                             <div>
                                 <p className="lato">Pôle Sénior</p>
                                 <p className="lato">Parce que les personnes âgées se sentent souvent exclues de l’informatique, perçue comme trop complexe, nous les accueillons au sein de l’Efrei et les initions à l’outil numérique.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="containerEntraideEntraide">
+                        <div id="containerEntraide">
+                            <div>
+                                <img src={require("../assets/images/icon_crayon.png")} alt="logo entraide"/>
+                            </div>
+                            <div>
+                                <p className="lato">Pôle Entraide</p>
+                                <p className="lato">Le pôle entraide a pour vocation d’aider les élèves d’Efrei Paris en difficulté en informatique. Ainsi, des cours particuliers sont organisés au cours de l’année pour permettre aux élèves de réussir leurs examens. Tu as d’ores et déjà des questions ? N’hésite pas à les poser à l’adresse suivante : entraide@fapefrei.com</p>
                             </div>
                         </div>
                     </div>

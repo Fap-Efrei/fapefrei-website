@@ -1,0 +1,146 @@
+.banner {
+    margin-top: 20px;
+    display: inline-flex;
+    align-items: center;
+    padding: 20px 0px 0px 0px;
+    background-color: #f9f9f9;
+    width: 100%;
+    position: relative;
+    border-top: 2px solid #d1f4ce;
+    border-bottom: 2px solid #d1f4ce;
+}
+  
+.banner_image {
+    max-width: 40%;
+    margin-right: 10%;
+    margin-bottom: 0px;
+    }
+      
+.banner_text {
+max-width: 40%;
+flex-grow: 1;
+}
+
+.text-title {
+    font-size: 30px;
+    margin-bottom: 0%;
+    color: #30de21;
+}
+  
+.text-content{
+    font-size: 14px;
+    color: #555555;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    margin-left: 20px;
+}
+
+.image-overlay{
+    width: 300px;
+    height: auto;
+    margin-left: 0%;
+}
+
+.banner_button {
+margin-top: 20px;
+max-width: 40%;
+margin-right: 20px;
+margin-left: 5%;
+white-space: nowrap;
+a{
+    z-index: 100;
+    text-decoration: none;
+    color: #30DE21;
+    border: 1px solid #30DE21;
+    border-radius: 50px;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+}
+
+@media screen and (min-width: 300px){
+    .text-title{
+        font-size: 15px;
+    }
+    .text-content{
+        font-size: 8px;
+    }
+    .banner_button{
+        font-size: 8px;
+        padding: 5px;
+    }
+    .image-overlay{
+        width: 100px;
+        margin-top: 5%;
+    }
+}
+
+@media screen and (min-width: 500px){
+    .text-title{
+        font-size: 20px;
+    }
+    .text-content{
+        font-size: 12px;
+    }
+    .banner_button{
+        font-size: 10px;
+        padding: 10px;
+    }
+    .image-overlay{
+        width: 150px;
+        margin-top: 5%;
+    }
+}
+
+@media screen and (min-width: 700px){
+    .text-title{
+        font-size: 25px;
+    }
+    .text-content{
+        font-size: 14px;
+    }
+    .banner_button{
+        font-size: 12px;
+    }
+    .image-overlay{
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 900px){
+    .banner_button{
+        font-size: 14px;
+    }
+    .image-overlay{
+        width: 225px;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .text-title{
+        font-size: 30px;
+    }
+    .text-content{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1100px){
+    .banner_button{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .banner_button{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1800px){
+    .banner_button{
+        font-size: 20px;
+    }
+}

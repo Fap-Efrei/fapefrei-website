@@ -1,6 +1,6 @@
 
-#mainContainerJoin{
-    #containerJoin{
+#mainContainerContact{
+    #containerContact{
         background: rgb(249, 249, 249);
         h1{
             color: #30DE21;
@@ -139,8 +139,8 @@
             transform: translateY(50px);
         }
     }
-    #mainContainerJoin{
-        #containerJoin{
+    #mainContainerContact{
+        #containerContact{
             h1{
                 font-size: 25px;
             }
@@ -168,12 +168,12 @@
             transform: translateY(0px);
         }
     }
-    #mainContainerJoin{
-        #containerJoin{
+    #mainContainerContact{
+        #containerContact{
             h1{
                 font-size: 35px;
-                text-align: right;
-                margin-right: 5%;
+                text-align: left;
+                margin-left: 10%;
             }
             #formPhone{
                 display: none;
@@ -182,17 +182,17 @@
                 display: block;
                 #containerCategory{
                     display: flex;
-                    #containerNameDiscordYear,#containerNamePhonePole,#containerMailMotivation{
+                    #containerNameEmail,#containerAssociationMessage{
                         width: 80%;
                         margin: auto;
                         input{
                             width: 80%;
                         }
                     }
-                    #containerMailMotivation{
+                    #containerAssociationMessage{
                         transform: translateY(24px);
                     }
-                    #containerMailMotivation{
+                    #containerAssociationMessage{
                         input{
                             width: 70%;
                         }
@@ -209,8 +209,8 @@
 }
 
 @media screen and (min-width: 700px){
-    #mainContainerJoin{
-        #containerJoin{
+    #mainContainerContact{
+        #containerContact{
             h1{
                 font-size: 40px;
             }
@@ -221,12 +221,12 @@
                     margin-right: 30px;
                 }
                 #containerCategory{
-                    #containerNameDiscordYear,#containerNamePhonePole{
+                    #containerNameEmail{
                         input{
                             width: 85%;
                         }
                     }
-                    #containerMailMotivation{
+                    #containerAssociationMessage{
                         transform: translateY(18px);
                     }
                     .inputContainer,.textareaContainer{
@@ -255,8 +255,8 @@
     }
 }
 @media screen and (min-width: 900px){
-    #mainContainerJoin{
-        #containerJoin{
+    #mainContainerContact{
+        #containerContact{
             h1{
                 font-size: 50px;
             }
@@ -265,12 +265,12 @@
                     font-size: 17px;
                 }
                 #containerCategory{
-                    #containerNameDiscordYear,#containerNamePhonePole{
+                    #containerNameEmail{
                         input{
                             width: 80%;
                         }
                     }
-                    #containerMailMotivation{
+                    #containerAssociationMessage{
                         transform: translateY(15px);
                     }
                     .inputContainer,.textareaContainer{
@@ -299,8 +299,8 @@
     }
 }
 @media screen and (min-width: 1100px){
-    #mainContainerJoin{
-        #containerJoin{
+    #mainContainerContact{
+        #containerContact{
             h1{
                 font-size: 55px;
             }
@@ -309,7 +309,7 @@
                     font-size: 17px;
                 }
                 #containerCategory{
-                    #containerMailMotivation{
+                    #containerAssociationMessage{
                         transform: translateY(20px);
                     }
                     .inputContainer,.textareaContainer{
@@ -341,8 +341,8 @@
     #mainJoin{
         min-height: 94vh;
     }
-    #mainContainerJoin{
-        #containerJoin{
+    #mainContainerContact{
+        #containerContact{
             h1{
                 font-size: 65px;
                 margin-right: 10%;
@@ -354,7 +354,7 @@
                     font-size: 20px;
                 }
                 #containerCategory{
-                    #containerMailMotivation{
+                    #containerAssociationMessage{
                         transform: translateY(10px);
                     }
                     .inputContainer,.textareaContainer{

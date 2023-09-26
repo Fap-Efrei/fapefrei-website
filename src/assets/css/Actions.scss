@@ -2,6 +2,7 @@
     min-height: 125vh;
     footer{
         position: absolute;
+        transform: translateY(170px);
     }
 }
 #mainContainerActions{
@@ -24,7 +25,7 @@
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 15px;
         padding: 20px 0px 20px 0px;
-        #descriptionPoleSenior,#descriptionPoleVolonte,#descriptionPoleEspoir,#descriptionPoleJunior{
+        #descriptionPoleSenior,#descriptionPoleVolonte,#descriptionPoleEspoir,#descriptionPoleJunior,#descriptionPoleEntraide{
             width: 80%;
             margin-left: 10%;
             margin-top: 20px;
@@ -47,9 +48,9 @@
 }
 @media screen and (min-width: 500px){
     #mainActions{
-        footer{
-            transform: translateY(90px);
-        }
+        /*footer{
+            transform: translateY(200px);
+        }*/
     }
     #mainContainerActions{
         h1{
@@ -64,7 +65,7 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             padding: 5px 0px 5px 0px;
-            #descriptionPoleSenior,#descriptionPoleVolonte,#descriptionPoleEspoir,#descriptionPoleJunior{
+            #descriptionPoleSenior,#descriptionPoleVolonte,#descriptionPoleEspoir,#descriptionPoleJunior,#descriptionPoleEntraide{
                 p:nth-child(1){
                     font-size: 18px;
                 }
@@ -72,7 +73,7 @@
                     font-size: 13px;
                 }
             }
-            #descriptionPoleEspoir,#descriptionPoleJunior{
+            #descriptionPoleEspoir,#descriptionPoleJunior,#descriptionPoleEntraide{
                 transform: translateY(-20px);
             }
         }
@@ -83,7 +84,7 @@
     #mainActions{
         footer{
             position: absolute;
-            transform: translateY(120px);
+            transform: translateY(220px);
         }
     }
     #mainContainerActions{
@@ -94,7 +95,7 @@
             font-size: 25px;
         }
         #containerDescriptionPole{
-            #descriptionPoleSenior,#descriptionPoleVolonte,#descriptionPoleEspoir,#descriptionPoleJunior{
+            #descriptionPoleSenior,#descriptionPoleVolonte,#descriptionPoleEspoir,#descriptionPoleJunior,#descriptionPoleEntraide{
                 p:nth-child(1){
                     font-size: 20px;
                 }
@@ -108,7 +109,7 @@
 @media screen and (min-width: 800px){
     #mainActions{
         footer{
-            transform: translateY(40px);
+            transform: translateY(250px);
         }
     }
 }
@@ -127,7 +128,7 @@
 @media screen and (min-width: 1100px){
     #mainActions{
         footer{
-            transform: translateY(200px);
+            transform: translateY(250px);
         }
     }
     #mainContainerActions{
@@ -142,7 +143,7 @@
         #containerDescriptionPole{
             width: 70%;
             margin-left: 15%;
-            #descriptionPoleSenior,#descriptionPoleVolonte,#descriptionPoleEspoir,#descriptionPoleJunior{
+            #descriptionPoleSenior,#descriptionPoleVolonte,#descriptionPoleEspoir,#descriptionPoleJunior,#descriptionPoleEntraide{
                 p:nth-child(1){
                     font-size: 22px;
                 }
@@ -158,7 +159,7 @@
 @media screen and (min-width: 1300px){
     #mainActions{
         footer{
-            transform: translateY(150px);
+            transform: translateY(250px);
         }
     }
     #mainContainerActions{
@@ -166,7 +167,7 @@
             font-size: 60px;
         }
         #containerDescriptionPole{
-            #descriptionPoleSenior,#descriptionPoleVolonte,#descriptionPoleEspoir,#descriptionPoleJunior{
+            #descriptionPoleSenior,#descriptionPoleVolonte,#descriptionPoleEspoir,#descriptionPoleJunior,#descriptionPoleEntraide{
                 p:nth-child(1){
                     font-size: 22px;
                 }
@@ -183,7 +184,7 @@
 @media screen and (min-width: 1500px){
     #mainActions{
         footer{
-            transform: translateY(160px);
+            transform: translateY(250px);
         }
     }
     #mainContainerActions{
@@ -198,7 +199,7 @@
         #containerDescriptionPole{
             width: 60%;
             margin-left: 20%;
-            #descriptionPoleSenior,#descriptionPoleVolonte,#descriptionPoleEspoir,#descriptionPoleJunior{
+            #descriptionPoleSenior,#descriptionPoleVolonte,#descriptionPoleEspoir,#descriptionPoleJunior,#descriptionPoleEntraide{
                 p:nth-child(1){
                     font-size: 22px;
                 }
@@ -213,7 +214,7 @@
 @media screen and (min-width: 1700px){
     #mainActions{
         footer{
-            transform: translateY(110px);
+            transform: translateY(250px);
         }
     }
 }
