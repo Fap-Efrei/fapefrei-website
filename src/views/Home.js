@@ -1,7 +1,6 @@
 import React from "react";
 import { NavLink,useLocation } from "react-router-dom" ;
-import "../assets/css/Home.scss"
-import Banner from "../components/Banner.jsx";
+import "../assets/css/Home.scss";
 function Home(){
     return(
         <div id="mainContainerHome">
@@ -19,7 +18,6 @@ function Home(){
                 <NavLink to="association">Découvrer l'association</NavLink>
                 <NavLink to="join">Rejoins-nous !</NavLink>
             </div>
-            <Banner/>
             <div id="mainContainerOurActions">
                 <h2 className="lato">Nos actions</h2>
                 <div id="containerOurActions">
