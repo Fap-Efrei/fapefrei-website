@@ -1,10 +1,5 @@
-#mainHome footer{
-    position: absolute;
-    transform: translateY(170px);
-}
-
 #mainContainerHome{
-    position: relative;
+    margin-top: 5%;
     overflow-x: hidden;
     .elipse{
         max-width: 1000px;
@@ -271,9 +266,9 @@
 }
 
 @media screen and (min-width: 600px){
-    #mainHome footer{
+    /* #mainHome footer{
         transform: translateY(200px);
-    }
+    } */
     #mainContainerHome{
         .elipse:nth-child(3){
             float: right;
@@ -319,6 +314,7 @@
 @media screen and (min-width: 700px){
     #mainHome footer{
         transform: translateY(220px);
+        //transform: translate(350%)
     }
     #mainContainerHome{
         #containerTitleDescription{
@@ -549,6 +545,7 @@
 @media screen and (min-width: 1500px){
     #mainHome footer{
         transform: translateY(250px);
+        transform: translateY(410%);
     }
     #mainContainerHome{
         #mainContainerOurActions{

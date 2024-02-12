@@ -31,8 +31,8 @@ const Layout = ({children,currentPage}) => {
             <NavBar/>
             <main id={classe}>
                 {children}
-                <Footer/>
             </main>
+            <Footer/>
         </div>
     )
 }

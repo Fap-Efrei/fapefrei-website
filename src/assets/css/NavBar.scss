@@ -1,14 +1,21 @@
-#mainContainerNav{
-    display: block;
-    #containerLinkNav{
-        a{
-            text-decoration: none;
-            color: #666666;
-        }
-        .active{
-            text-decoration: #30DE21 underline;
-            text-decoration-thickness: 3px;
-            text-underline-offset: 6px;
+header{
+    width: 100%;
+    height: 10%;
+    top: 0;
+    position: fixed;
+    z-index: 100;
+    #mainContainerNav{
+        display: flex;
+        #containerLinkNav{
+            a{
+                text-decoration: none;
+                color: #666666;
+            }
+            .active{
+                text-decoration: #30DE21 underline;
+                text-decoration-thickness: 3px;
+                text-underline-offset: 6px;
+            }
         }
     }
 }

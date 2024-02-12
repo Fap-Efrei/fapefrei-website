@@ -17,8 +17,9 @@ const Footer = () => {
                 </div>
                 <div id="containerSocialMedia">
                     <div id="containerLogoSocialMedia">
-                        <a href="https://www.facebook.com/fapefrei/" target="_blank" rel="noreferrer"><img src={require("../assets/images/logo_facebook.png")} alt="logo facebook"/></a>
+                        <a href="https://discord.gg/ZR7t6ACqhD" target="_blank" rel="noreferrer"><img src={require("../assets/images/logo_discord.png")} alt="logo discord"/></a>
                         <a href="https://www.instagram.com/fapefrei/?hl=fr" target="_blank" rel="noreferrer"><img src={require("../assets/images/logo_instagram.png")} alt="logo instagram"/></a>
+                        <a href="https://www.facebook.com/fapefrei/" target="_blank" rel="noreferrer"><img src={require("../assets/images/logo_facebook.png")} alt="logo facebook"/></a>
                         <a href="https://www.linkedin.com/showcase/fapefrei/" target="_blank" rel="noreferrer"><img src={require("../assets/images/logo_linkedin.png")} alt="logo linkedin"/></a>
                         <a href="https://twitter.com/fapefrei?lang=fr" target="_blank" rel="noreferrer"><img src={require("../assets/images/logo_x.png")} alt="logo twitter"/></a>
                     </div>

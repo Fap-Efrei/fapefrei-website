@@ -6,8 +6,7 @@ function Home(){
         <div id="mainContainerHome">
             <div id="containerTitleDescription">
                 <div id="title">
-                    <h1 className="lato">FAP EFREI</h1>
-                    <h2>Formations aux particuliers</h2>
+                    <h2>Formation Aux Particuliers</h2>
                     <p className="lato">Une association étudiante bénévole et dynamique au service de la communauté</p>
                 </div>
                 <img src={require("../assets/images/computer.png")} alt="logo ordinateur"/>
