@@ -32,7 +32,7 @@ function Contact(){
                         <div id="containerNameEmail">
                             <Input type="text" id="inputFirstName" name="firstname" value={formData.firstname} onChange={handleChange} placeholder="Entrez votre prénom" label="Prénom" required/>
                             <Input type="text" id="inputLastName" name="lastName" value={formData.lastName} onChange={handleChange} placeholder="Entrez votre nom" label="Nom" required/>
-                            <Input type="mail" id="inputEmail" name="mail" value={formData.mail} onChange={handleChange} placeholder="Entrez votre adresse mail" label="Email" required/>
+                            <Input type="email" id="inputEmail" name="mail" value={formData.mail} onChange={handleChange} placeholder="Entrez votre adresse mail" label="Email" required/>
                             <Input type="number" id="inputTelephone" name="telephone" value={formData.telephone} onChange={handleChange} placeholder="Entrez votre numéro de téléphone" label="Téléphone"/>
                         </div>
                         <div id="containerAssociationMessage">
@@ -46,7 +46,7 @@ function Contact(){
                 <form id="formPhone">
                     <Input type="text" id="inputFirstName" name="firstName" value={formData.firstname} onChange={handleChange} placeholder="Entrez votre prénom" label="Prénom" required/>
                     <Input type="text" id="inputLastName" name="lastName" value={formData.lastName} onChange={handleChange} placeholder="Entrez votre nom" label="Nom" required/>
-                    <Input type="mail" id="inputEmail" name="mail" value={formData.mail} onChange={handleChange} placeholder="Entrez votre adresse mail" label="Email" required/>
+                    <Input type="email" id="inputEmail" name="mail" value={formData.mail} onChange={handleChange} placeholder="Entrez votre adresse mail" label="Email" required/>
                     <Input type="number" id="inputTelephone" name="telephone" value={formData.telephone} onChange={handleChange} placeholder="Entrez votre numéro de téléphone" label="Téléphone"/>
                     <Input type="text" id="inputDiscord" name="discord" value={formData.discord} onChange={handleChange} placeholder="Entrez votre pseudo discord" label="Pseudo discord"/>
                     <Input type="text" id="inputNameAssociation" name="nameAssociation" value={formData.nameAssociation} onChange={handleChange} placeholder="Entrez le nom de votre association" label="Quel est le nom de l'association ?"/>
