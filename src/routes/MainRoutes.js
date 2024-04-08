@@ -6,6 +6,8 @@ import Join from "../views/Join";
 import Team from "../views/Team";
 import Missing from "../views/Missing";
 import Old from "../views/Old";
+import Planning from "../views/Planning";
+
 const MainRoutes = {
     path: "",
     children: [
@@ -43,6 +45,11 @@ const MainRoutes = {
             path: "old",
             element: <Old/>,
             name: "Old",
+        },
+        {
+            path: "planning",
+            element: <Planning/>,
+            name: "Planning",
         },
         {
             path: "*",
