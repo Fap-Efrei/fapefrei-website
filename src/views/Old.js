@@ -64,7 +64,7 @@ function Old(){
                     <li className="lato">Vice-présidente : Julie Thiriez</li>
                     <li className="lato">Vice-président : Tristan Bonneau</li>
                     <li className="lato">Secrétaire : Marie-Anne Ferreira</li>
-                    <li className="lato">Trésorier : Léo Maugé</li>
+                    <li className="lato">Trésorier : Élise Maugé</li>
                     <li className="lato">Vice-trésorière : Birintha Sri Chuthesgaran</li>
                     <li className="lato">Chef de pôle Séniors : Alexis Pelletier</li>
                     <li className="lato">Chef de pôle Séniors : Gaspard Thevenot</li>
@@ -82,7 +82,7 @@ function Old(){
                 <ul>
                     <li className="lato">Président : Guillaume Jobin</li>
                     <li className="lato">Vice-présidente : Marie-Anne Ferreira</li>
-                    <li className="lato">Secrétaire : Léo Maugé</li>
+                    <li className="lato">Secrétaire : Élise Maugé</li>
                     <li className="lato">Trésorier : Amaury Paquis-Thonat</li>
                     <li className="lato">Vice-trésorier : Mathieu Etchepare</li>
                     <li className="lato">Chef de pôle Séniors : Claire Huang</li>
